@@ -25,18 +25,16 @@
             left: 5%;
         }
 
-        .pic {
+        /* .pic {
             display: inline-block;
             position: absolute;
             right: 5%;
             top: 5%;
-        }
+        } */
 
         .infor_table {
-            display: inline-block;
-            position: relative;
-            left: 5%;
-            top: 5%;
+           width: 600px;
+           margin: 40px;
         }
 
         .content {
@@ -53,9 +51,8 @@
         }
 
         .infor_content {
-            width: 600px;
-            /* height: 400px; */
-            padding: 20px;
+            padding-top: 25px;
+    padding-left: 10px;b
         }
 
         li {
@@ -69,36 +66,41 @@
 </head>
 
 <body>
-   
-        
-    <div class="content card">
-        <div class="infor_table"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                class="bi bi-file-person-fill" viewBox="0 0 16 16">
-                <path
-                    d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
-            </svg>
-            <h1 class="title">MY INFORMATION</h1>
-            <div class="infor_content card">
-                <ul>
-                    <li><b>Name: </b>Cadie</li>
-                    <li><b>Student Number: </b> 1082053</li>
-                    <li><b>Department: </b> Information Communication</li>
-                    <li><b>Year: </b>Junior</li>
-                    <li><b>My favorite song: </b><a
-                            href="https://open.spotify.com/track/5HCyWlXZPP0y6Gqq8TgA20?si=b04f5b22abe44f71">STAY-
-                            Justin Bieber</a></li>
-                            <br>
-                    <li><b>My favorite website: </b><iframe src="https://www.yzu.edu.tw/" frameborder="0"
-                            style="width: 500px; height: 400px;"></iframe></li>
-                            <br>
-                    <li> <b>My city: </b><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501725.33822829416!2d106.41502941557002!3d10.755341088550095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2stw!4v1634611477912!5m2!1svi!2stw" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </li>
-              </ul>        
+
+
+    <div class="container-sm content card">
+        <div class="row justify-content-start">
+            <div class="col-4 infor_table "> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
+                </svg>
+                <h1 class="title">MY INFORMATION</h1>
+                <div class="container-sm infor_content card">
+                    <ul>
+                        <li><b>Name: </b>Cadie</li>
+                        <li><b>Student Number: </b> 1082053</li>
+                        <li><b>Department: </b> Information Communication</li>
+                        <li><b>Year: </b>Junior</li>
+                        <li><b>My favorite song: </b><a
+                                href="https://open.spotify.com/track/5HCyWlXZPP0y6Gqq8TgA20?si=b04f5b22abe44f71">STAY-
+                                Justin Bieber</a></li>
+                        <br>
+                        <li><b>My favorite website: </b><iframe src="https://www.yzu.edu.tw/" frameborder="0"
+                                style="width: 500px; height: 400px;"></iframe></li>
+                        <br>
+                        <li> <b>My city: </b><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501725.33822829416!2d106.41502941557002!3d10.755341088550095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2stw!4v1634611477912!5m2!1svi!2stw"
+                                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+            <div class="col-4 pic"><img src="infor.jpeg" class="rounded" style="width: 300px; margin-top: 100px;" alt=""></div>
         </div>
-        <div class="pic"><img src="infor.jpeg" class="rounded" style="width: 300px;" alt=""></div>
     </div>
-   
+
 </body>
 
 </html>
